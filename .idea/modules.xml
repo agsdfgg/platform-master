@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/activity_center/activity_center.iml" filepath="$PROJECT_DIR$/activity_center/activity_center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/authentication/authentication.iml" filepath="$PROJECT_DIR$/authentication/authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home_page/home_page.iml" filepath="$PROJECT_DIR$/home_page/home_page.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hot_games/hot-games.iml" filepath="$PROJECT_DIR$/hot_games/hot-games.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personal_center/personal_center.iml" filepath="$PROJECT_DIR$/personal_center/personal_center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/star_coin_mall/star-coin-mall.iml" filepath="$PROJECT_DIR$/star_coin_mall/star-coin-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/star_polemo.iml" filepath="$PROJECT_DIR$/star_polemo.iml" />
+    </modules>
+  </component>
+</project>

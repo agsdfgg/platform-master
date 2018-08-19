@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="activity_center" />
+        <module name="authentication" />
+        <module name="home_page" />
+        <module name="hot-games" />
+        <module name="login" />
+        <module name="personal_center" />
+        <module name="star-coin-mall" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activity_center" target="1.8" />
+      <module name="activity_center (1)" target="1.8" />
+      <module name="authentication" target="1.8" />
+      <module name="home_page" target="1.8" />
+      <module name="hot-games" target="1.8" />
+      <module name="hot_games" target="1.8" />
+      <module name="login" target="1.8" />
+      <module name="personal_center" target="1.8" />
+      <module name="star-coin-mall" target="1.8" />
+      <module name="star_coin_mall" target="1.8" />
+      <module name="star_polemo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

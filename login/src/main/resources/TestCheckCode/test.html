@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-2.0.0.js"></script>
+</head>
+<script type="application/javascript">
+    function getcode() {
+        $("#dd").html("<p></p>");
+        $("#dd").html("<img src=\"../checkCode\" id=\"code\" onclick=\"getcode()\">");
+    }
+
+    function vail() {
+        var fontCode=$("#ya").val();
+        $.ajax({
+            url:"/vail",
+            data:fontCode,
+            type:"POST",
+            success:function (data) {
+               alert(data);
+
+            }
+        })
+    }
+</script>
+<body onload="getcode()">
+请输入验证码：<input type="text"  id="ya">
+<input type="button" value="验证该验证码" onclick="vail()">
+<div id="dd">
+
+</div>
+</body>
+</html>
